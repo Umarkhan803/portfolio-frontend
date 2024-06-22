@@ -1,0 +1,32 @@
+.About {
+  padding: 0px 20px;
+  padding-top: 50px;
+  overflow: hidden;
+}
+.name {
+  font-weight: 600;
+}
+.about-text {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 3rem;
+}
+.About p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.circle-2 {
+  position: absolute;
+  bottom: 19%;
+  right: -12%;
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(
+    to top right,
+    rgb(235, 103, 228),
+    rgb(255, 115, 0)
+  );
+  border-radius: 50%;
+}

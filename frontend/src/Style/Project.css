@@ -1,0 +1,99 @@
+#Projects {
+  position: relative;
+  overflow: hidden;
+  padding: 60px 0;
+}
+
+#Projects h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 3px solid #ddd;
+}
+
+.project-info {
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.project-info h3 {
+  margin: 0;
+  font-size: 1.8em;
+  color: #333;
+}
+
+.project-info p {
+  margin: 10px 0;
+  font-size: 1em;
+  color: #777;
+}
+
+.project-info a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.project-info a:hover {
+  background-color: #555;
+}
+.circle-4 {
+  bottom: -10%;
+  right: -5%;
+  z-index: -1;
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(140deg, rgb(87, 238, 213), rgb(166, 255, 0));
+  position: absolute;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .project-info {
+    padding: 15px;
+  }
+
+  .project-info h3 {
+    font-size: 1.5em;
+  }
+}
