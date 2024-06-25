@@ -59,7 +59,7 @@ function Project() {
                 <div class="project-info">
                   <h3>Quize App</h3>
                   <p>Short description of the project goes here.</p>
-                  <a href="https://github.com/Umarkhan803/quizeApp.git">
+                  <a href="https://github.com/Umarkhan803/quizappfrontend.git">
                     View on GitHub
                   </a>
                 </div>
