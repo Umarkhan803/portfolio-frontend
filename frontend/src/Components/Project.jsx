@@ -52,7 +52,8 @@ function Project() {
             <div class="project-card">
               <div class="card-content hidden ">
                 <img
-                  src="https://files.oaiusercontent.com/file-rGEfOwwMNd2XIbyeSVPWJAJd?se=2024-06-18T13%3A24%3A07Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D6a4db4b2-3ad4-46c0-836e-2e25637897d2.webp&sig=Xz8gqbgsKv5Slwi9ecSx/i2eEa7tknP/Evl5C0DXIvA%3D"
+                  src="/Capture2.PNG
+                  "
                   alt="Project 3"
                 />
                 <div class="project-info">
